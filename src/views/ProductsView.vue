@@ -1,5 +1,15 @@
 <template>
   <div class="about">
-    <h1>This is an product page</h1>
+    <ProductsComp />
   </div>
 </template>
+
+<script>
+import ProductsComp from "../components/ProductsComp.vue";
+
+export default {
+  components: {
+    ProductsComp,
+  },
+};
+</script>
